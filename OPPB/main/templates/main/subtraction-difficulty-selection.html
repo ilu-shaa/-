@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="box.svg" />
+    <title>Генератор-Вычитание
+    </title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link type="text/css" href="{% static '/main/css/difficulty-selection-style.css' %}" rel="stylesheet" />
+    <link type="text/css" href="{% static '/main/css/complication-style.css' %}" rel="stylesheet" />
+    <link type="text/css" href="{% static '/main/css/styles.css' %}" rel="stylesheet" />
+</head> 
+<body>
+    <h1>Выберите сложность</h1>
+    <div class="wrapper">
+        <div class="logo_relative">
+          <div class="logo_ratio"></div>
+          <div class="logo_holder">
+            <div class="hackathon__logo"></div>
+          </div>
+        </div>
+      </div> 
+      <section aria-label="Работа" class="hackathon__title">
+        <div class="wrapper">
+          <div class="hackathon_header__image"></div>
+            <div class="hackathon_menu__holder">
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+            <div class="hackathon_header__image"></div>
+            <div class="hackathon__header"><a href="./assets/data/files/documentation/Polozheniye_o_Khakatone_2024.pdf" target="_blank" class="hackathon__button mt9 mb3"></a>
+              <div class="hackathon_menu__holder">
+                <menu class="hackathon_navigation__holder"><a href="#participation" class="hackathon__navigation">
+                        
+                </menu>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section aria-label="Кто может принять участие" id="participation" class="hackathon__participation">
+        <div class="wrapper">
+          <div class="row">
+                  <article class="hackathon_participation__holder mb3">
+                    <div class="hackathon_participation__icon">
+                      <div class="hackathon_participation__icon-1"></div>
+                    </div>
+                  </article>
+                  <article class="hackathon_participation__holder mb3">
+                    <div class="hackathon_participation__icon">
+                      <div class="hackathon_participation__icon-2"></div>
+                    </div>
+                  </article>
+          </div>
+        </div>
+      </section>
+      <a href="/chet/minus/ez" class="btn btn-shape">Лёгкий уровень</a>      
+      <a href="/chet/minus/no" class="btn btn-subtraction">Средний уровень</a>    
+      <a href="/chet/minus/har" class="btn btn-multiplication">Сложный уровень</a>      
+    
+</body> 
+</html>
