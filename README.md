@@ -1,3 +1,5 @@
+#Execute all commands while in the file folder manage.py
+
 It is necessary to install: 
 Django==5.0.6
 PyMySQL==1.1.1
